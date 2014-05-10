@@ -1969,7 +1969,7 @@ section .overlay-text {
 }
 .contact-form .last {
   border-left: 0;
-  border-radius: 0 4px 0 0;
+  border-radius: 4px;
 }
 .contact-form .email {
   height: 50px;
