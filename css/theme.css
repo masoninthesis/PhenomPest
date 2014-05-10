@@ -1965,7 +1965,7 @@ section .overlay-text {
   height: 50px;
 }
 .contact-form .first {
-  border-radius: 4px 0 0 0;
+  border-radius: 4px;
 }
 .contact-form .last {
   border-left: 0;
