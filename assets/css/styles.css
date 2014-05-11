@@ -58,8 +58,9 @@ blockquote {
   color: #225742;
 }
 .note {
-  font-family: 'Covered By Your Grace', cursive;
-  font-size: 22px;
+  font-family: 'Georgia';
+    font-size: 18px;
+    font-style: italic;
 }
 .row-end {
   margin-right: 0;

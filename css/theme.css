@@ -2002,7 +2002,7 @@ section .overlay-text {
   padding: 1em 0;
 }
 .contact-form footer button {
-  background: #88b7b3;
+  background: #555555;
   border-radius: 4px;
   border: 0;
   color: white;
