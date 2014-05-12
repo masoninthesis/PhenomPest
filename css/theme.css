@@ -1801,7 +1801,7 @@ section .overlay-text {
   margin: 0;
   overflow: hidden;
   position: relative;
-  background-color: rgba(44, 46, 53, 0.7);
+  background-color: #fff;
   border-radius: 4px;
 }
 .grid figure .info {
