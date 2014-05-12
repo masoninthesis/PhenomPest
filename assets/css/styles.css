@@ -686,7 +686,7 @@ blockquote {
 }
 /* ======= FAQ Section ======= */
 .faq {
-  padding: 80px 0;
+  margin-top: -140px;
 }
 .faq .title {
   margin-bottom: 60px;
