@@ -250,101 +250,374 @@
         </div><!--//container-->
     </section><!--//story-->
 
-    <!-- ******TESTIMONIALS****** --> 
-    <section id="testimonials" class="testimonials section">
-        <div class="container">
-            <div class="row">
-                <h2 class="title text-center">What do people think?</h2>
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                            <a href="#">@Delta</a> I love this #app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. #Mobile
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-1.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Christine Heal</span>
-                            <span class="title">Bristol, UK</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                            <a href="#">@Delta</a> consectetur adipiscing elit. #DeltaApp Sed bibendum velit quis nunc laoreet dictum id nisl id lacinia. 
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-2.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Ben Rousseau</span>
-                            <span class="title">Paris, France</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                        I find DeltaApp very useful - Lorem ipsum dolor sit amet, check it out: <a href="#">http://bit.ly/1gB9UBR</a>
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-3.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Mike Chan</span>
-                            <span class="title">Hongkong, China</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-            </div><!--//row-->
-            <div class="row">
-                <div class="item col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                         DeltaApp is fab lorem ipsum dolor sit amet proin sagittis sodales pulvinar Mauris id arcu eget augue condimentum euismod: <a href="#">http://bit.ly/1gB9UBR</a>
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-4.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Annie Lee</span>
-                            <span class="title">Berlin, Germany</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                        DeltaApp is a great dolor sit amet proin sagittis sodales pulvinar vestibulum porta dolor molestie semper.: <a href="#">http://bit.ly/1gB9UBR</a>
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-5.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Adam Gordon</span>
-                            <span class="title">London, UK</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
+
+    <!-- Portfolio
+    ================================================== -->
+    <section class="section-content section-isotope separator" id="projects">
+
+      <div class="page-header text-center">
+        <h3>Projects</h3>
+        <h2>Our latest work</h2>
+      </div>
+
+      <div class="container">
+        <div id="filters" class="button-group text-center">
+          <button data-filter-value="*" class="active">All</button>
+          <button data-filter-value=".spiders">Spiders</button>
+          <!--<button data-filter-value=".ants">Ants</button>-->
+          <button data-filter-value=".roaches">Roaches</button>
+          <button data-filter-value=".rodents">Rodents</button>
+          <button data-filter-value=".other">Other</button>
+        </div>
+        <div class="row demo-3">
+          <div id="portfolio" class="js-isotope grid cs-style-1" data-isotope-options='{ "columnWidth": 200, "itemSelector": ".portfolio-item" }'>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Banana Spider</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb1.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb1.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="press row text-center">
-                <h3 class="note">Also featured in...</h3>
-                <ul class="col-md-12 list-inline">
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-1.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-2.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-3.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-4.png" alt="" /></a></li>
-                    <li class="last"><a href="#"><img class="img-responsive" src="assets/images/press/press-5.png" alt="" /></a></li>
-                </ul>
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//Testimonials-->
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>     
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Brown Recluse</h3>
+                  <span>Spider</span>
+                </div>   
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb2.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb2.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Black Widow</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb3.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb3.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Wolf Spider</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb4.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb4.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Daddy Longlegs</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb5.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb5.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item roaches">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>German Cockroach</h3>
+                  <span>Roach</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb6.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb6.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item roaches">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>American Cockroach</h3>
+                  <span>Roach</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb7.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb7.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item roaches">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Oriental Cockroach</h3>
+                  <span>Roach</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb8.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb8.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item roaches">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Smokey Brown Cockroach</h3>
+                  <span>Roach</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb9.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb9.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Silverfish</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb1.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb1.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>     
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Camel Cricket</h3>
+                  <span>Other</span>
+                </div>   
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb2.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb2.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Stink Bugs</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb3.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb3.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Bed Bugs</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb4.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb4.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Chinch Bugs</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb5.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb5.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Earwig</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb6.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb6.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item rodents">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>House Mouse</h3>
+                  <span>Rodent</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb7.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb7.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item rodents">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Deer Mice</h3>
+                  <span>Rodent</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb8.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb8.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item rodents">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Norway Rat</h3>
+                  <span>Rodent</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb9.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb9.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+              <div class="col-sm-6 col-md-4 portfolio-item ants">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Roof/Black Rats</h3>
+                  <span>Rodent</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb9.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb9.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+              <div class="col-sm-6 col-md-4 portfolio-item ants">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Lorem ipsum</h3>
+                  <span>Mobile</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb9.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb9.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item ants">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Lorem ipsum</h3>
+                  <span>Mobile</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb9.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb9.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+              <div class="col-sm-6 col-md-4 portfolio-item ants">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Lorem ipsum</h3>
+                  <span>Mobile</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb9.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb9.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item ants">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Lorem ipsum</h3>
+                  <span>Mobile</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/thumbs/thumb9.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/thumbs/thumb9.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="#" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Open Website"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
 
 
