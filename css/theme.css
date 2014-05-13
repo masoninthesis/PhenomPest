@@ -2010,7 +2010,7 @@ section .overlay-text {
   transition: all linear .2s;
 }
 .contact-form footer button:hover {
-  background: #cccccc;
+  background: #333;
 }
 .contact-form footer button:focus {
   outline: none;

@@ -27,7 +27,7 @@ a:hover {
   -o-transition: all 0.4s ease-in-out;
 }
 .btn .fa {
-  color: #fff;
+  color: #6CB233;
   margin-right: 5px;
 }
 .btn-theme {
@@ -35,8 +35,14 @@ a:hover {
   border: 1px solid #6CB233;
   color: #fff;
 }
+.btn-products {
+  background: #fff;
+  border: 1px solid #6CB233;
+  color: #6CB233;
+}
+
 .btn-theme:hover {
-  background: #3fa07a;
+  background: #555;
   border: 1px solid #3fa07a;
   color: #fff;
 }
@@ -444,12 +450,12 @@ blockquote {
   color: #3f3f3f;
 }
 .promo .overview .note p {
-  padding-top: 15px;
+  padding-top: 65px;
 }
 .promo .overview .note .left-arrow {
   position: absolute;
-  left: 60px;
-  bottom: 15px;
+  left: 0px;
+  bottom: 45px;
   display: inline-block;
   background: url('../images/arrows/up-arrow-left.png') no-repeat left top;
   -webkit-background-size: contain;
@@ -464,8 +470,8 @@ blockquote {
 }
 .promo .overview .note .right-arrow {
   position: absolute;
-  right: 60px;
-  bottom: 15px;
+  right: 0px;
+  bottom: 45px;
   display: inline-block;
   background: url('../images/arrows/up-arrow-right.png') no-repeat right top;
   -webkit-background-size: contain;
@@ -509,7 +515,6 @@ blockquote {
   display: block;
   width: 500px;
   height: 500px;
-  background: url('../images/glow.png') no-repeat center top;
   right: 0;
   top: 0;
   position: absolute;
@@ -1178,4 +1183,31 @@ blockquote {
     text-align: left;
   }
 }
+
+/*New @masoninthesis */ 
+
+
+.header-btns {
+	background: none repeat scroll 0 0 #555555;
+    border: 0 none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 1em;
+    padding: 1.3em 2em;
+    transition: all 0.2s linear 0s;
+} 
+
+.insects {
+	padding-top: 160px;
+}
+
+@media (max-width:991px) {
+	.insects {
+	visibility:hidden;
+	margin-bottom: -350px;
+	}
+}
+
+
+
 /* Large devices (large desktops, 1200px and up) */
