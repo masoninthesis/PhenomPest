@@ -10,7 +10,7 @@ body {
   color: #444444;
 }
 a {
-  color: #56bc94;
+  color: #6CB233;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -31,8 +31,8 @@ a:hover {
   margin-right: 5px;
 }
 .btn-theme {
-  background: #56bc94;
-  border: 1px solid #56bc94;
+  background: #6CB233;
+  border: 1px solid #6CB233;
   color: #fff;
 }
 .btn-theme:hover {
@@ -46,7 +46,7 @@ a:hover {
   box-shadow: none;
 }
 .form-control:focus {
-  border-color: #56bc94;
+  border-color: #6CB233;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -96,7 +96,7 @@ blockquote {
   float: left;
 }
 .social-icons a:hover {
-  background: #317b5e;
+  background: #3f3f3f;
 }
 .social-icons a .fa {
   color: #fff;
@@ -295,7 +295,7 @@ blockquote {
   margin-right: 10px;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #56bc94;
+  color: #6CB233;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
@@ -306,7 +306,7 @@ blockquote {
   -o-transition: none;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: #56bc94;
+  color: #6CB233;
   background: none;
 }
 .header .main-nav .nav .nav-item a:focus {
@@ -318,7 +318,7 @@ blockquote {
   background: none;
 }
 .header .main-nav .nav .nav-item.active {
-  color: #56bc94;
+  color: #6CB233;
 }
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
@@ -340,7 +340,7 @@ blockquote {
   color: #808080;
 }
 .footer .links a:hover {
-  color: #56bc94;
+  color: #6CB233;
 }
 /* ======= FlexSlider ======= */
 .flexslider {
@@ -364,17 +364,17 @@ blockquote {
   background: #a1a1a1;
 }
 .flexslider .flex-control-paging li a:hover {
-  background: #56bc94;
+  background: #6CB233;
 }
 .flexslider .flex-control-paging li a.flex-active {
-  background: #56bc94;
+  background: #6CB233;
 }
 .flexslider .slides li {
   position: relative;
 }
 /* ======= Promo Section ======= */
 .promo {
-  background-color: #56bc94;
+  background-color: #6CB233;
   color: #fff;
 }
 .promo .container {
@@ -413,7 +413,7 @@ blockquote {
   margin-bottom: 15px;
 }
 .promo .overview .btn-group li a {
-  background-color: #317b5e;
+  background-color: #3f3f3f;
   background-repeat: no-repeat;
   background-position: left top;
   -webkit-border-radius: 4px;
@@ -441,7 +441,7 @@ blockquote {
 }
 .promo .overview .note {
   position: relative;
-  color: #317b5e;
+  color: #3f3f3f;
 }
 .promo .overview .note p {
   padding-top: 15px;
@@ -589,7 +589,7 @@ blockquote {
   position: relative;
   width: 90px;
   height: 90px;
-  border: 3px solid #56bc94;
+  border: 3px solid #6CB233;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -605,7 +605,7 @@ blockquote {
   transition: transform ease-out 0.2s, background 0.3s;
 }
 .features .icon:hover {
-  background: #56bc94;
+  background: #6CB233;
   color: #fff;
 }
 .features .icon:hover .fa {
@@ -616,7 +616,7 @@ blockquote {
   -o-transform: scale(0.93);
 }
 .features .icon .fa {
-  color: #56bc94;
+  color: #6CB233;
   font-size: 48px;
   display: table-cell;
   text-align: center;
@@ -626,7 +626,7 @@ blockquote {
   padding: 30px;
 }
 .features .content .title {
-  color: #56bc94;
+  color: #6CB233;
   font-size: 18px;
   margin-top: 0;
 }
@@ -703,7 +703,7 @@ blockquote {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border-bottom: 3px solid #c4e7d9;
+  border-bottom: 3px solid #6CB233;
 }
 .faq .item .question {
   margin-top: 0;
@@ -712,7 +712,7 @@ blockquote {
 }
 .faq .item .question .fa {
   margin-right: 10px;
-  color: #7bcaab;
+  color: #6CB233;
 }
 .faq .item .answer {
   color: #777777;
@@ -735,7 +735,7 @@ blockquote {
 }
 /* ======= Story Section ======= */
 .story {
-  background-color: #56bc94;
+  background-color: #6CB233;
   color: #fff;
   padding: 80px 0;
 }
@@ -767,7 +767,7 @@ blockquote {
   font-size: 26px;
 }
 .story .team .connect a {
-  color: #317b5e;
+  color: #3f3f3f;
 }
 .story .team .connect a:hover {
   color: #1b4434;
@@ -798,7 +798,7 @@ blockquote {
   margin-bottom: 23px;
 }
 .testimonials .item .quote-box .fa {
-  color: #56bc94;
+  color: #6CB233;
   font-size: 18px;
   position: absolute;
   left: 30px;
@@ -844,7 +844,7 @@ blockquote {
   color: #999999;
 }
 .testimonials .press .note {
-  color: #56bc94;
+  color: #6CB233;
   margin-bottom: 30px;
 }
 .testimonials .press li {
@@ -870,7 +870,7 @@ blockquote {
 }
 /* ======= Contact Section ======= */
 .contact {
-  background-color: #56bc94;
+  background-color: #6CB233;
   color: #fff;
   padding: 20px 0 !important;
 }
@@ -888,14 +888,14 @@ blockquote {
 }
 .contact .intro li {
   margin-bottom: 10px;
-  color: #317b5e;
+  color: #3f3f3f;
   font-size: 16px;
 }
 .contact .intro li .fa {
   margin-right: 10px;
 }
 .contact .intro li a {
-  color: #317b5e;
+  color: #3f3f3f;
 }
 .contact .intro li a:hover {
   color: #225742;
@@ -906,7 +906,7 @@ blockquote {
   padding: 15px;
 }
 .contact .contact-form .btn-theme {
-  background-color: #317b5e;
+  background-color: #3f3f3f;
   margin-top: 15px;
 }
 .contact .social-icons {
@@ -992,7 +992,7 @@ blockquote {
   color: #999999;
 }
 .config-panel #device-options a:hover {
-  color: #56bc94;
+  color: #6CB233;
 }
 .config-panel #device-options li.active a {
   color: #8dd2b7;
@@ -1013,7 +1013,7 @@ blockquote {
   border: 2px solid #fff;
 }
 .config-panel #color-options li.theme-1 a {
-  background: #56bc94;
+  background: #6CB233;
 }
 .config-panel #color-options li.theme-2 a {
   background-color: #28a5a8;

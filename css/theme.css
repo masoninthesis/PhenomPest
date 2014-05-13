@@ -1491,7 +1491,6 @@ section h1 {
 section h2 {
   font-size: 3em;
   font-weight: 100;
-  text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0.5em 0;
   line-height: 1.3;
@@ -1500,7 +1499,7 @@ section h3 {
   font-size: 1.8em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #C54946;
+  color: #6CB233;
   letter-spacing: 1px;
 }
 section p {
