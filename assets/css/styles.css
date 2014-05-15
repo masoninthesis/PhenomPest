@@ -1270,3 +1270,7 @@ div.product-chooser{
 			top: 0;
 			visibility:hidden;
 		}
+		
+.lib-pad {
+	margin-top: 20px;
+}
