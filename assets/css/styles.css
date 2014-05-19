@@ -387,7 +387,7 @@ blockquote {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background-color: #6CB233;
+  background-color: #eeeeee;
   color: #fff;
 }
 .promo .container {
@@ -1284,4 +1284,9 @@ div.product-chooser{
 
 .pp-logo {
 	padding-top: 50px;
+}
+
+@font-face {
+    font-family: batman;
+    src: url('/fonts/batman.ttf');
 }
