@@ -1287,6 +1287,16 @@ div.product-chooser{
 }
 
 @font-face {
-    font-family: batman;
-    src: url('/fonts/batman.ttf');
+  font-family: 'Batman';
+  src: url('../fonts/batman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;	 
 }
+
+.batman-font {
+    font-family: "Batman";
+    font-size: 72px;
+    line-height: 65px;
+    text-align: left;
+}
+
