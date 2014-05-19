@@ -27,9 +27,15 @@ a:hover {
   -o-transition: all 0.4s ease-in-out;
 }
 .btn .fa {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.btn .faa {
   color: #6CB233;
   margin-right: 5px;
 }
+
 .btn-theme {
   background: #6CB233;
   border: 1px solid #6CB233;
@@ -266,6 +272,7 @@ blockquote {
   font-weight: bold;
   font-size: 28px;
   max-height: 50px;
+  padding-top: 6px;
 }
 .header h1.logo a {
   color: #444444;
@@ -1198,7 +1205,7 @@ blockquote {
 } 
 
 .insects {
-	padding-top: 160px;
+	padding-top: 40px;
 }
 
 @media (max-width:991px) {
@@ -1273,4 +1280,8 @@ div.product-chooser{
 		
 .lib-pad {
 	margin-top: 20px;
+}
+
+.pp-logo {
+	padding-top: 50px;
 }
