@@ -259,7 +259,7 @@ blockquote {
 /* ======= Header ======= */
 .header {
   padding: 15px 0;
-  background: #fff;
+  background: #555;
   z-index: 9999;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
@@ -312,7 +312,7 @@ blockquote {
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #444444;
+  color: #fff;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
