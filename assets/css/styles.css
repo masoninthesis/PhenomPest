@@ -285,7 +285,7 @@ blockquote {
   vertical-align: middle;
 }
 .header .main-nav button {
-  background: #225742;
+  background: #313131;
   color: #fff !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1298,5 +1298,10 @@ div.product-chooser{
     font-size: 72px;
     line-height: 65px;
     text-align: left;
+}
+
+.learn-more {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
 }
 
