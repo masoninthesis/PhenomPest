@@ -22,7 +22,7 @@ $message = $_POST['message'];
 // --- ENTER YOUR EMAIL ADDRESS HERE
 // -------------------------------------------
 
-$to = 'hello@jackalopemedia.com';
+$to = 'info@phenompest.com';
 
 // -------------------------------------------
 
