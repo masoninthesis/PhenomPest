@@ -5,6 +5,13 @@
  * Website: http://3rdwavemedia.com/
 */
 /* ======= Base ======= */
+
+.charity {
+  font-size: 30px;
+  color: #fff !important;
+  padding-top: 20px;
+}
+
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #444444;

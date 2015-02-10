@@ -50,7 +50,7 @@ ul,li,h1,h2,h3,p{
 	#links a{
 		color:#69C;
 	}
-	
+
 	#toc li, #links li{
 		list-style-type:circle;
 		padding-left:5px;
@@ -122,7 +122,7 @@ ul.links{
 	clear:left;
 }
 h3 span{
-	position:absolute;			
+	position:absolute;
 }
 .message{
 	background:#EEE;
