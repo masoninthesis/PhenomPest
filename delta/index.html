@@ -1,43 +1,57 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-<head>
-    <title>Responsive website template for mobile app</title>
-    <!-- Meta -->
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if IE 10]> <html class="ie10" lang="en"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]> <html lang="en"> <![endif]-->
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>  
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.png">
+
+    <title>Phenom Pest Control | Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->    
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
-    <link rel="stylesheet" href="assets/plugins/animate-css/animate.min.css">
-    <!-- Theme CSS -->  
+
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-</head> 
 
-<body data-spy="scroll">
-    <!-- ******HEADER****** --> 
-    <header id="top" class="header navbar-fixed-top">  
-        <div class="container">            
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+
+  <!-- ******HEADER****** -->
+    <header id="top" class="header navbar-fixed-top">
+        <div class="container">
             <h1 class="logo pull-left">
                 <a class="scrollto" href="#promo">
                     <img id="logo-image" class="logo-image" src="assets/images/logo/logo.png" alt="Logo">
-                    <span class="logo-title">Delta</span>
+                    <!-- <span class="logo-title">Phenom Pest</span> -->
                 </a>
-            </h1><!--//logo-->              
+            </h1><!--//logo-->
             <nav id="main-nav" class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -46,254 +60,175 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->            
+                </div><!--//navbar-header-->
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
+                      <li class=""><a href="https://www.crowdrise.com/fishingforfamilies/fundraiser/brandonjamison">Charity Events</a></li>
                         <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#how">How it works</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#how">How It Works</a></li>
                         <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#story">Story</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#products">Treatment</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#pests">Pests</a></li>
                         <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+                        <li class=""><a href="https://www.crowdrise.com/fishingforfamilies/fundraiser/brandonjamison">Charity Events</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->           
+            </nav><!--//main-nav-->
         </div>
     </header><!--//header-->
-    
-    <!-- ******PROMO****** --> 
+
+    <!-- ******PROMO****** -->
     <section id="promo" class="promo section offset-header has-pattern">
         <div class="container">
             <div class="row">
-                <div class="overview col-md-8 col-sm-12 col-xs-12">
-                    <h2 class="title">Delta helps you promote your mobile app</h2>
-                    <ul class="summary">
-                        <li>Showcase and promote your mobile app to the web</li>
-                        <li>Demonstrate how the app works</li>
-                        <li>Provide answers to common questions</li>
-                        <li>Tell the world about the story behind the app</li>
-                    </ul>
-                    <div class="download-area">
-                        <ul class="btn-group list-inline">
-                            <li class="ios-btn"><a href="#">Download from the App Store</a></li>
-                            <li class="android-btn"><a href="#">Get it from Google Play</a></li>
-                        </ul>
-                        <div class="note text-center">
-                            <p>30% OFF - Now only $0.99<br />Offer ends 31st March</p>
-                            <span class="left-arrow"></span>
-                            <span class="right-arrow"></span>
-                        </div><!--//note-->
+            	<div class="col-sm-12">
+	            	<center><img class="pp-logo img-responsive" src="img/logo.png"/></center>
+            	</div>
+                <div class="col-sm-6">
+                    <center><img class="img-responsive" src="img/heading1.png"/></center><br>
+                </div>
+                <div class="col-sm-6">
+                    <center><img class="img-responsive" src="img/heading2.png"/></center><br>
+                </div>
+                    <div class="col-sm-12">
+                        <center><button class="header-btns"><a href="#">Schedule Free Inspection</a></button></center>
                     </div>
                 </div><!--//overview-->
-                
+
+                <div class="col-sm-12">
+                <div class="more text-center">
+                  <br><a class="learn-more btn btn-lg btn-theme scrollto" href="#how">Learn More <i class="fa fa-arrow-circle-o-down"></i></a>
+		        </div>
+
                 <!--// iPhone starts -->
-                <div class="phone iphone iphone-black col-md-4 col-sm-12 col-xs-12 ">
-                    <div class="iphone-holder phone-holder">
-                        <div class="iphone-holder-inner">
-                            <div class="slider flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="assets/images/iphone/iphone-slide-1.png"  alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/iphone/iphone-slide-2.png"  alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/iphone/iphone-slide-3.png"  alt="" />
-                                    </li>
-                                </ul><!--//slides-->
-                            </div><!--//flexslider-->   
-                        </div><!--//iphone-holder-inner-->                    
-                    </div><!--//iphone-holder-->                   
-                </div><!--//iphone-->  
+                <div class="">
+                	<center><img class="insects" src="img/pests/roach_vector.png"/></center>
+                </div><!-- //iphone-->
                 <!--// iPhone ends -->
-                
-                <!--// Android starts -->                
-                <div class="phone android col-md-4 col-sm-12 col-xs-12" style="display:none">
-                    <div class="android-holder phone-holder">
-                        <div class="android-holder-inner">
-                            <div class="slider flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="assets/images/android/android-slide-1.png"  alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/android/android-slide-2.png"  alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/android/android-slide-3.png"  alt="" />
-                                    </li>
-                                </ul><!--//slides-->
-                            </div><!--//flexslider-->   
-                        </div><!--//phone-holder-inner-->                    
-                    </div><!--//iphone-holder-->                   
-                </div><!--//iphone--> 
-                <!--// Android ends -->
-                
-                <!--// iPad starts -->
-                <div class="ipad ipad-black col-md-4 col-sm-12 col-xs-12 col-md-pull-1" style="display:none">
-                    <div class="ipad-holder">
-                        <div class="ipad-holder-inner">
-                            <div class="slider flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="assets/images/ipad/ipad-slide-1.png"  alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/ipad/ipad-slide-2.png"  alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/ipad/ipad-slide-3.png"  alt="" />
-                                    </li>
-                                </ul><!--//slides-->
-                            </div><!--//flexslider-->   
-                        </div><!--//ipad-holder-inner-->                    
-                    </div><!--//ipad-holder-->                   
-                </div><!--//ipad--> 
-                <!--// iPad ends -->  
-                                           
+
             </div><!--//row-->
         </div><!--//container-->
     </section><!--//promo-->
-    
-    <!-- ******FEATURES****** --> 
-    <section id="features" class="features section">
-        <div class="container">
-            <div class="row">
-                <h2 class="title text-center sr-only">Features</h2>
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-cloud-upload"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature One</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>  
-                    </div><!--//content-->               
-                </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-rocket"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Two</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>   
-                    </div><!--//content-->               
-                </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-users"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Three</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>   
-                    </div><!--//content-->               
-                </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-map-marker"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Four</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>   
-                    </div><!--//content-->               
-                </div><!--//item-->
-            </div><!--//row-->
-            
-            <div class="row">
-                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-calendar"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature One</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>  
-                    </div><!--//content-->               
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-comments"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Two</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>   
-                    </div><!--//content-->               
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-globe"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Three</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>   
-                    </div><!--//content-->               
-                </div><!--//item-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//features-->
-    
-    <!-- ******HOW****** --> 
-    <section id="how" class="how section has-pattern">
-        <div class="container">
-            <div class="row">
-                <div class="content col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6 text-center">
-                    <h2 class="title">How it works</h2>
-                    <p class="intro">You can <a href="http://blog.sensortower.com/blog/2013/07/19/3-ways-to-create-a-great-ios-app-demo-video-without-breaking-the-bank/" target="_blank">create a video demo</a> for your app to demonstrate how the app works. You can also <a href="http://www.qrstuff.com/" target="_blank">generate QR codes</a> for the app download links.</p>
-                    <div class="qr-codes hidden-sm hidden-xs">
-                        <div class="note">
-                            <p>Scan the QR codes</p>
-                            <span class="left-arrow"></span>
-                            <span class="right-arrow"></span>
-                        </div><!--//note-->
-                        <div class="row">
-                            <div class="item col-md-6 col-sm-6">
-                                <img src="assets/images/qrcodes/qr-1.png" alt="" />
-                                <p>Download for iOS</p>
-                            </div><!--//item-->
-                            <div class="item col-md-6 col-sm-6">
-                                <img src="assets/images/qrcodes/qr-1.png" alt="" />
-                                <p>Download for Andriod</p>
-                            </div><!--//item-->
-                        </div>                    
-                    </div><!--//qr-codes-->
-                </div><!--//content-->
-                <div id="video-container" class="video-container col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
-                    <iframe src="//player.vimeo.com/video/87044590" width="570" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div><!--//video-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//how-->
-    
-    <!-- ******FAQ****** --> 
+
+
+    <!-- ******FEATURES****** -->
+    <section id="how" class="features section">
+	  <div class="container">
+	  <center><h2>Our 5 Step Treatment Process</h2></center>
+		<div class="row">
+	        <center><div class="col-sm-8 col-sm-offset-2 bhoechie-tab-container">
+	            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
+	              <div class="list-group">
+	                <a href="#" class="list-group-item active text-center">
+	                  <h4 class="glyphicon glyphicon-list-alt"></h4><br/>Free Inspection
+	                </a>
+	                <a href="#" class="list-group-item text-center">
+	                  <h4 class="glyphicon glyphicon-home"></h4><br/>Interior
+	                </a>
+	                <a href="#" class="list-group-item text-center">
+	                  <h4 class="glyphicon glyphicon-leaf"></h4><br/>Exterior
+	                </a>
+	                <a href="#" class="list-group-item text-center">
+	                  <h4 class="glyphicon glyphicon-heart"></h4><br/>Kid & Pet Safe
+	                </a>
+	                <a href="#" class="list-group-item text-center">
+	                  <h4 class="glyphicon glyphicon-cog"></h4><br/>Servicing
+	                </a>
+	              </div>
+	            </div>
+	            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
+	                <!-- flight section -->
+	                <div class="bhoechie-tab-content active">
+	                    <center>
+	                      <h1 class="glyphicon glyphicon-list-alt" style="font-size:6em;color:#6CB233"></h1>
+	                      <h2 style="margin-top: 0;color:#6CB233">Free Inspection</h2>
+	                      <p>Onsite inspection by a trained technician.</p>
+	                      <div class="more text-center">
+		                      <h4 class="title">Ready?</h4>
+		                      <a class="btn btn-lg btn-theme scrollto" href="#contact">Schedule Now <i class="fa fa-arrow-circle-o-down"></i></a>
+		                  </div>
+	                    </center>
+	                </div>
+	                <!-- train section -->
+	                <div class="bhoechie-tab-content">
+	                    <center>
+	                      <h1 class="glyphicon glyphicon-home" style="font-size:6em;color:#6CB233"></h1>
+	                      <h2 style="margin-top: 0;color:#6CB233">Interior Treatment</h2>
+	                      <p>To guarantee a thorough treatment, we service the interior of your home on the first service, including basements, plumbing areas, attic care, windowsills, and floorboard treatment in every room and even crack and crevice treatment in your kitchen and bathrooms just to name a few. Our interior product is odorless, effective and safe for pets and humans.</p>
+	                      <div class="more text-center">
+		                      <h4 class="title">More questions?</h4>
+		                      <a class="btn btn-lg btn-theme scrollto" href="#contact">Get in touch <i class="fa fa-arrow-circle-o-down"></i></a>
+		                  </div><br>
+	                    </center>
+	                </div>
+
+	                <!-- hotel search -->
+	                <div class="bhoechie-tab-content">
+	                    <center>
+	                      <h1 class="glyphicon glyphicon-leaf" style="font-size:6em;color:#6CB233"></h1>
+	                      <h2 style="margin-top: 0;color:#6CB233">Exterior Treatment</h2>
+	                      <p>On the exterior we’ll also do crack and crevice treatment around the foundation of your home and drive/walkways.  This includes a power spray application around the foundation, outside windowsills, flowerbeds, and even your second story eves and windows.</p>
+	                      <div class="more text-center">
+		                      <h4 class="title">More questions?</h4>
+		                      <a class="btn btn-lg btn-theme scrollto" href="#contact">Get in touch <i class="fa fa-arrow-circle-o-down"></i></a>
+		                  </div>
+	                    </center>
+	                </div>
+	                <div class="bhoechie-tab-content">
+	                    <center>
+	                      <h1 class="glyphicon glyphicon-heart" style="font-size:6em;color:#6CB233"></h1>
+	                      <h2 style="margin-top: 0;color:#6CB233">Kid & Pet Safe</h2>
+	                      <p>To make sure your yard is safe for your kids and pets to run around and play in, we use granules derived directly from plants that have a natural repellant for service pests such as ants, spiders, roaches, chiggers, fleas, ticks, earwigs etc.</p>
+	                      <div class="more text-center">
+		                      <h4 class="title">More questions?</h4>
+		                      <a class="btn btn-lg btn-theme scrollto" href="#contact">Get in touch <i class="fa fa-arrow-circle-o-down"></i></a>
+		                  </div>
+	                    </center>
+	                </div>
+	                <div class="bhoechie-tab-content">
+	                    <center>
+	                      <h1 class="glyphicon glyphicon-cog" style="font-size:6em;color:#6CB233"></h1>
+	                      <h2 style="margin-top: 0;color:#6CB233">Repeat Treatment</h2>
+	                      <p>We then return to service the exterior of your home on a monthly, bimonthly or quarterly basis - determined by your preference – to ensure that your home consistently remains pest free.  Interior services are schedule upon request.</p>
+	                      <div class="more text-center">
+		                      <h4 class="title">More questions?</h4>
+		                      <a class="btn btn-lg btn-theme scrollto" href="#contact">Get in touch <i class="fa fa-arrow-circle-o-down"></i></a>
+		                  </div>
+	                    </center>
+	                </div>
+	            </div>
+	        </div></center>
+	    </div>
+	</div>
+</section><!--//features-->
+
+    <!-- ******FAQ****** -->
     <section id="faq" class="faq section">
         <div class="container">
             <div class="row">
-                <h2 class="title text-center">Frequently Asked Questions</h2>
+                <br><br><h2 class="title text-center">Frequently Asked Questions</h2>
                 <div class="faq-col col-md-6 col-sm-6 col-xs-12">
                     <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>How can I  ipsum dolor sit amet?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.</p>
+                        <h3 class="question"><i class="fa fa-question-circle"></i>What makes Phenom different from other companies?</h3>
+                        <p class="answer">We love to get asked this question! We pride ourselves on the services, product, and customer service we provide our customers. Being a family owned company we make sure we provide the services which are considered extras and extra costs by other companies, as part of our standard pest treatments. We treat you, like we treat our own family! For example, while every company will treat around the foundation of the home, we go above and beyond by completing a full pressure application around the entire second story of your home, to target those hard to reach wasp nests, spider nests and entry points for stink bugs. We also use a product that is the longest lasting in the pest control industry, guaranteed! CONTACT US TO FIND OUT MORE!</p>
                     </div><!--//item-->
                     <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>What is the ipsum dolor sit amet quam tortor?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>What's the differences between ipsum and dolor sit amet?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est.</p>
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Do you treat the inside of my home too?</h3>
+                        <p class="answer">Of course! We will treat the inside of your home – including your attic, behind your walls where your plumbing is, your basement garage and every room in the house – on the initial service, and then upon request during any other time throughout the year as needed. We do recommend having at least 2 indoor treatments a year. Once in the spring and once in the fall.</p>
                     </div><!--//item-->
                 </div><!--//faq-col-->
                 <div class="faq-col col-md-6 col-sm-6 col-xs-12">
                     <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>How does the morbi quam tortor work?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.</p>
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Is the stuff you use safe for my kids and pets?</h3>
+                        <p class="answer">YES! The main products we use are all organic based, being derived from the chrysanthemum and marigold flowers. In fact, your normal kitchen and bathroom cleaners are more harmful than what we use.</p>
                     </div><!--//item-->
                     <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>Can I ipsum dolor sit amet nascetur ridiculus?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.</p>
+                        <h3 class="question"><i class="fa fa-question-circle"></i>How do I know I’ll be satisfied with the services?</h3>
+                        <p class="answer">We are so sure of the services we provide, that we GUARANTEE THEM 100%! If a pesky pest sneaks in or around your home or if you see something anytime between your scheduled services then we’ll come back and take care of it for you at NO EXTRA CHARGE! Just give us a call!</p>
                     </div><!--//item-->
                     <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>How can I proin scelerisque magna?</h3>
-                        <p class="answer">Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. </p>
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Why should I have a professional pest protection service?</h3>
+                        <p class="answer">Our company representatives are professionals that are trained and certified to handle the specific pest issues that you will encounter in and around your home. Not only are our technicians trained in the proper application of materials used to eliminate and prevent pests; but having them come on a regular schedule will allow you to have more time at home with your family, and less time having to worry about pests. Schedule a service today!</p>
                     </div><!--//item-->
                 </div><!--//faq-col-->
             </div><!--//row-->
@@ -303,244 +238,475 @@
             </div>
         </div><!--//container-->
     </section><!--//faq-->
-    
-    <!-- ******STORY****** --> 
-    <section id="story" class="story section has-pattern">
+
+    <!-- ******STORY****** -->
+    <section id="products" class="story section has-pattern">
         <div class="container">
             <div class="row">
-                <div class="content col-md-6 col-sm-6 col-xs-12 text-center">
-                    <h2 class="title">Story behind the app</h2>
-                    <p>Aliquam euismod vehicula lacus, non congue ante pulvinar a. Nunc eu posuere risus, ut condimentum ante. Suspendisse at turpis sollicitudin odio congue lobortis vitae nec nisi. Nullam sodales at libero in lacinia. Nullam vel nibh pulvinar, interdum purus tristique, iaculis turpis. Integer imperdiet tincidunt erat vel gravida. Suspendisse tincidunt orci sed leo euismod, quis ultrices ipsum lobortis. Sed viverra dui et elit accumsan accumsan. Donec lorem turpis, iaculis ac fermentum nec, dignissim sed nisi. Nunc condimentum turpis arcu, eu aliquet lorem eleifend ut. Integer at lorem nec diam elementum convallis vel vel nulla.</p>
-                    <p>Nullam vel nibh pulvinar, interdum purus tristique, iaculis turpis. Integer imperdiet tincidunt erat vel gravida. eleifend ut. Integer at lorem nec diam elementum convallis vel vel nulla.</p>
-                </div><!--//content-->
-                <div class="team col-md-5 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-12">
-                    <div class="row">
-                        <div class="member col-md-6 text-center">
-                            <img class="img-rounded" src="assets/images/team/member-1.png" alt="" />
-                            <p class="name">James Norton</p>
-                            <p class="title">Lead Developer</p>
-                            <ul class="connect list-inline">
-                                <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
-                                <li class="row-end"><a href="#" ><i class="fa fa-github"></i></a></li>         
-                            </ul>
-                        </div><!--//member-->
-                        <div class="member col-md-6 text-center">
+                <div class="content team col-md-6 col-sm-6 col-xs-12 text-center">
+                	<div class="row">
+	                	<div class="member col-md-12 text-center">
                             <img class="img-rounded" src="assets/images/team/member-2.png" alt="" />
-                            <p class="name">Steve Thomson</p>
-                            <p class="title">UI/UX Designer</p>
-                            <ul class="connect list-inline">
-                                <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
-                                <li class="row-end"><a href="#" ><i class="fa fa-dribbble"></i></a></li>         
-                            </ul>
+                       </div><!--//member-->
+                	</div>
+                    <h2 class="title">Residential</h2>
+                    <p>PHENOM knows that the demands of your job, family and other activities don’t provide you to time to worry about your home being pest free.  Remove the stress of having to buy, store and apply pesticides around your home by using a responsible professional you can trust.  PHENOM has trained and licensed technicians that are specialists in customizing a treatment process specifically for the needs or your home.</p>
+                    <p>Your safety is our first priority.  The misapplication of chemicals can potentially contaminate your home, and actually increase the pest problems.  Our trained technicians will identify pest threats and treat the areas of your home most susceptible. Our dedication to safety ensures a customized solution best for your family, pets and home environment.</p>
+                    <p>It is important to completely break-up the life cycle of current pests including eggs, larva, pupa, nymphs, and adults.  PHENOM will return within 30-45 days to ensure a life cycle halt.  This will then start your regular service schedule.  Below we explain 5 easy steps we implement to ensure an environment without pests.</p>
+                    <div class="more text-center">
+                <h4 class="title">More questions?</h4>
+                <a class="btn btn-lg btn-products scrollto" href="#contact">Get in touch</a>
+            </div><br>
+                </div><!--//content-->
+                <div class="content team col-md-6 col-sm-6 col-xs-12 text-center">
+                	<div class="row">
+	                	<div class="member col-md-12 text-center">
+                            <img class="img-rounded" src="assets/images/team/member-1.png" alt="" />
                         </div><!--//member-->
-                    </div>
-                </div><!--//team-->
+                	</div>
+                    <h2 class="title">Commercial</h2>
+                    <p>Businesses know that pests in the workplace are a nuisance and a health concern. A pest problem can also be a deterrent to customers, which in turn takes current and new business opportunities away. PHENOM specializes in creating a tailored approach to your specific business needs.</p>
+                    <p>You have a lot of resources invested into your business, don’t allow pests to ruin that.  PHENOM has a commercial program that after a thorough inspection by our trained professionals, we will be able to implement to cover all the needs your business may have.</p>
+                    <p>Safety and sanitation is a priority in the workplace.  The misapplication of chemicals can potentially contaminate your work environment and actually increase the pest problems.  Our trained technicians will identify pest threats and treat the areas of your business that are most susceptible. Our dedication to safety ensures a customized solution best for your work environment, employees and customers. </p>
+                    <div class="more text-center">
+		                <h4 class="title">More questions?</h4>
+		                <a class="btn btn-lg btn-products scrollto" href="#contact">Get in touch</a>
+                	</div>
+                </div><!--//content-->
             </div><!--//row-->
         </div><!--//container-->
     </section><!--//story-->
-    
-    <!-- ******TESTIMONIALS****** --> 
-    <section id="testimonials" class="testimonials section">
-        <div class="container">
-            <div class="row">
-                <h2 class="title text-center">What do people think?</h2>
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                            <a href="#">@Delta</a> I love this #app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. #Mobile
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-1.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Christine Heal</span>
-                            <span class="title">Bristol, UK</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                            <a href="#">@Delta</a> consectetur adipiscing elit. #DeltaApp Sed bibendum velit quis nunc laoreet dictum id nisl id lacinia. 
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-2.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Ben Rousseau</span>
-                            <span class="title">Paris, France</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                        I find DeltaApp very useful - Lorem ipsum dolor sit amet, check it out: <a href="#">http://bit.ly/1gB9UBR</a>
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-3.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Mike Chan</span>
-                            <span class="title">Hongkong, China</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-            </div><!--//row-->
-            <div class="row">
-                <div class="item col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                         DeltaApp is fab lorem ipsum dolor sit amet proin sagittis sodales pulvinar Mauris id arcu eget augue condimentum euismod: <a href="#">http://bit.ly/1gB9UBR</a>
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-4.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Annie Lee</span>
-                            <span class="title">Berlin, Germany</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-4">
-                    <div class="quote-box">
-                        <i class="fa fa-quote-left"></i>
-                        <blockquote class="quote">
-                        DeltaApp is a great dolor sit amet proin sagittis sodales pulvinar vestibulum porta dolor molestie semper.: <a href="#">http://bit.ly/1gB9UBR</a>
-                        </blockquote><!--//quote-->
-                    </div><!--//quote-box-->
-                    <div class="people row">
-                        <img class="img-rounded user-pic col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1" src="assets/images/people/people-5.png" alt="" />
-                        <p class="details text-center pull-left">
-                            <span class="name">Adam Gordon</span>
-                            <span class="title">London, UK</span>
-                        </p>                        
-                    </div><!--//people-->
-                </div><!--//item-->
+
+
+    <!-- Portfolio
+    ================================================== -->
+    <section class="section-content section-isotope separator" id="pests">
+		<div class="row">
+			<div class="col-sm-12">
+	        	<center>
+		        	<h2>Our Treatment Process</h2>
+		        	<img class="img-responsive" src="img/diagram.jpg" alt="" />
+	        	</center>
             </div>
-            <div class="press row text-center">
-                <h3 class="note">Also featured in...</h3>
-                <ul class="col-md-12 list-inline">
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-1.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-2.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-3.png" alt="" /></a></li>
-                    <li><a href="#"><img class="img-responsive" src="assets/images/press/press-4.png" alt="" /></a></li>
-                    <li class="last"><a href="#"><img class="img-responsive" src="assets/images/press/press-5.png" alt="" /></a></li>
-                </ul>
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//Testimonials-->
-    
-    <!-- ******CONTACT****** --> 
-    <section id="contact" class="contact section has-pattern">
-        <div class="container">
-            <div class="row text-center">
-                <h2 class="title">Contact US</h2>
-                <div class="intro col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
-                    <p>We’d love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut erat magna. Aliquam porta sem a lacus imperdiet posuere. Integer semper eget ligula id eleifend.</p>
+        </div>
+      <div class="page-header text-center">
+        <h2>Pest Identification</h2>
+      </div>
+
+      <div class="container">
+        <div id="filters" class="button-group text-center">
+          <button data-filter-value="*" class="active">All</button>
+          <button data-filter-value=".spiders">Spiders</button>
+          <!--<button data-filter-value=".ants">Ants</button>-->
+          <button data-filter-value=".roaches">Roaches</button>
+          <button data-filter-value=".rodents">Rodents</button>
+          <button data-filter-value=".other">Other</button>
+        </div>
+        <div class="row demo-3">
+          <div id="portfolio" class="js-isotope grid cs-style-1" data-isotope-options='{ "columnWidth": 200, "itemSelector": ".portfolio-item" }'>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Banana Spider</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/banana.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/banana.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Brown Recluse</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/brownrecluse.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/brownrecluse.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Black Widow</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/blackwidow.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/blackwidow.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Wolf Spider</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/wolfspider.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/wolfspider.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item spiders">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Daddy Longlegs</h3>
+                  <span>Spider</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/daddylonglegs.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/daddylonglegs.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item roaches">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>German Cockroach</h3>
+                  <span>Roach</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/germanroach.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/germanroach.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item roaches">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>American Cockroach</h3>
+                  <span>Roach</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/americanroach.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/americanroach.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item roaches">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Oriental Cockroach</h3>
+                  <span>Roach</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/orientalroach.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/orientalroach.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item roaches">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Smokey Brown Cockroach</h3>
+                  <span>Roach</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/smokeybrown.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/smokeybrown.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Silverfish</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/silverfish.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/silverfish.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Camel Cricket</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/camel.jpeg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/camel.jpeg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Stink Bugs</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/stinkbug.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/stinkbug.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Bed Bugs</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/bedbugs.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/bedbugs.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Red Ants</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/resize/redants.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/resize/redants.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item other">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Earwig</h3>
+                  <span>Other</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/earwig.jpeg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/earwig.jpeg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item rodents">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>House Mouse</h3>
+                  <span>Rodent</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/housemouse.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/housemouse.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item rodents">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Deer Mice</h3>
+                  <span>Rodent</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/deermouse.jpg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/deermouse.jpg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item rodents">
+              <figure>
+                <!-- Thumb Info -->
+                <div class="info">
+                  <h3>Norway Rat</h3>
+                  <span>Rodent</span>
+                </div>
+                <!-- Thumbnail -->
+                <img src="img/pests/norwayrat.jpeg" alt="Prestige Portfolio Thumbnail Image">
+                <!-- Thumb links -->
+                <figcaption>
+                  <a href="img/pests/norwayrat.jpeg" class="preview tooltips popup-gallery" data-toggle="tooltip" data-placement="bottom" title="Preview"><i class="fa fa-plus"></i></a><a href="http://phenompest.com/library.html" class="link tooltips" data-toggle="tooltip" data-placement="bottom" title="Go To Library"><i class="fa fa-external-link"></i></a>
+                </figcaption>
+              </figure>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+        <!-- Call to Action
+    ================================================== -->
+    <section id="contact" class="cta text-center contact section has-pattern">
+
+      <div class="container">
+
+        <div class="row text-center">
+                <h2 class="title">About Us</h2>
+                <div class="intro col-sm-12">
+                    <p>Phenom Pest Protection is a local family owned business that is focused on providing phenomenal customer service with phenomenal results in protecting your family from pests.  We pride ourselves in building relationships that last built on satisfaction and trust.  We’re so sure of our services, we offer a 100% guarantee that you’ll be satisfied. If at any time issues arise between treatments, we will take care of it promptly – free of charge!  Just give us a call!
+</p>
+                    <br><p>CALL US NOW FOR A FREE INSPECTION AND QUOTE!</p>
                     <ul class="list-unstyled contact-details">
-                        <li><i class="fa fa-envelope"></i><a href="mailto:hello@website.com">hello@website.com</a></li>
-                        <li><i class="fa fa-phone-square"></i>0800 123 456</li>
+                        <li><i class="fa fa-phone-square"></i>+1 (410) 312-SAFE</li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:hello@website.com">info@phenompest.com</a></li>
                     </ul>
                 </div>
             </div><!--//row-->
-            <div class="row text-center">
-                <div class="contact-form col-md-6 col-sm-12 col-xs-12 col-md-offset-3">                            
-                    <form class="form">                
-                        <div class="form-group name">
-                            <label class="sr-only" for="name">Name</label>
-                            <input id="name" type="text" class="form-control" placeholder="Name:">
-                        </div><!--//form-group-->
-                        <div class="form-group email">
-                            <label class="sr-only" for="email">Email</label>
-                            <input id="email" type="email" class="form-control" placeholder="Email:">
-                        </div><!--//form-group-->
-                        <div class="form-group message">
-                            <label class="sr-only" for="message">Message</label>
-                            <textarea id="message" class="form-control" rows="6" placeholder="Message:"></textarea>
-                        </div><!--//form-group-->
-                        <button type="submit" class="btn btn-lg btn-theme">Send Message</button>
-                    </form><!--//form-->                 
-                </div><!--//contact-form-->
-            </div><!--//row-->
-            <div class="text-center">
-                 <ul class="social-icons list-inline">
-                    <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" ><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#" ><i class="fa fa-google-plus"></i></a></li>                  
-                </ul><!--//social-icons-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//contact-->  
-      
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container">
-            <small class="copyright pull-left">Copyright &copy; 2014 Delta App</small>
-            <ul class="links list-inline">
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-            </ul>
-        </div>
-    </footer><!--//footer-->
-    
-    <!-- *****CONFIGURE STYLE****** -->  
-    <div class="config-wrapper">
-        <div class="config-wrapper-inner">
-            <a id="config-trigger" class="config-trigger" href="#"><i class="fa fa-cog"></i></a>
-            <div id="config-panel" class="config-panel">
-                <h5>Choose Colour</h5>
-                <ul id="color-options" class="list-unstyled list-inline">
-                    <li class="theme-1 active" ><a data-style="assets/css/styles.css" data-logo="assets/images/logo/logo.png" href="#"></a></li>
-                    <li class="theme-2"><a data-style="assets/css/styles-2.css" data-logo="assets/images/logo/logo-2.png" href="#"></a></li>
-                    <li class="theme-3"><a data-style="assets/css/styles-3.css" data-logo="assets/images/logo/logo-3.png" href="#"></a></li>
-                    <li class="theme-4"><a data-style="assets/css/styles-4.css" data-logo="assets/images/logo/logo-4.png" href="#"></a></li>
-                    
-                    <li class="theme-5"><a data-style="assets/css/styles-5.css" data-logo="assets/images/logo/logo-5.png" href="#"></a></li> 
-                    
-                    <li class="theme-6"><a data-style="assets/css/styles-6.css" data-logo="assets/images/logo/logo-6.png" href="#"></a></li>
-                    <li class="theme-7"><a data-style="assets/css/styles-7.css" data-logo="assets/images/logo/logo-7.png" href="#"></a></li>
-                    <li class="theme-8"><a data-style="assets/css/styles-8.css" data-logo="assets/images/logo/logo-8.png" href="#"></a></li>
-                    
-                    <li class="theme-9"><a data-style="assets/css/styles-9.css" data-logo="assets/images/logo/logo-9.png" href="#"></a></li>
-                    <li class="theme-10"><a data-style="assets/css/styles-10.css" data-logo="assets/images/logo/logo-10.png" href="#"></a></li>
-                    
-                </ul><!--//color-options-->
-                <h5 class="device-title">Choose Device</h5>
-                <ul id="device-options" class="list-unstyled">
-                    <li class="default active"><a data-class="iphone-black" data-type="iphone" href="#">iPhone Black</a></li>
-                    <li><a data-class="iphone-white" data-type="iphone" href="#">iPhone White</a></li>
-                    <li><a data-class="ipad-white" data-type="ipad" href="#">iPad White</a></li>
-                    <li><a data-class="ipad-black" data-type="ipad" href="#">iPad Black</a></li>
-                    <li><a data-class="android" data-type="android" href="#">Android</a></li>
-                </ul>
-                <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
-            </div><!--//configure-panel-->
-        </div><!--//config-wrapper-inner-->
-    </div><!--//config-wrapper-->
-     
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/detectmobilebrowser.js"></script>      
-    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
-    <script type="text/javascript" src="assets/plugins/jquery-inview/jquery.inview.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <!--[if !IE]>--> 
-    <script type="text/javascript" src="assets/js/animations.js"></script> 
-    <!--<![endif]-->         
-</body>
-</html> 
 
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Have pests or rodents? <span class="highlight">Schedule a free inspection!</span></h2>
+            <div class='contact-form'>
+              <form name="sentMessage" id="contactForm"  novalidate>
+                <div class='name'>
+                  <input class='form-control first' placeholder='First Name' type='text' id="first_name" required data-validation-required-message="Please enter your first name">
+                  <input class='last' placeholder='Last Name' type='text' id="last_name" required data-validation-required-message="Please enter your last name">
+                </div>
+                <div class='contact'>
+                  <input class='form-control email' placeholder='E-mail Address' type='text' id="email" required data-validation-required-message="Please enter your email">
+                </div>
+                <div class='message'>
+                  <textarea class="form-control" placeholder='Your message' id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                </div>
+                <div id="success"> </div> <!-- For success/fail messages -->
+                <footer class="submit-button">
+                  <button type="submit">Send your message</button>
+                </footer>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-sm-3 col-md-3">
+              <div class="footer-logo">
+                <h2>Phenom Pest</h2>
+                <p>9009 Mendenhall Ct suite H<br>Columbia, MD 21046<br>+1 (410) 312-SAFE</p>
+                <br>
+                <p class="muted">© 2014 Phenom Pest, LLC</p>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy</a>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+              <h3>Service</h3>
+              <ul class="list-unstyled">
+                <li><a href="#products">Residential</a></li>
+                <li><a href="#products">Commercial</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3 col-md-3">
+              <h3>Company</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Jobs&emsp;<span class="label label-info">We're hiring!</span></a></li>
+                <li><a href="http://romneypestcontrol.com/">Romney Pest Control</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3 col-md-3">
+              <h3>Documentation</h3>
+              <ul class="list-unstyled">
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="http://phenompest.com/library.html">Pest Library</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12">
+	          <br>
+	          <center><img id="logo-image" class="logo-image" src="assets/images/logo/logo.png" alt="Logo"></center>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scrollReveal.js"></script>
+    <script src="js/jquery.scrollTo.js" defer="defer"></script>
+    <script src="js/jquery.nav.js" defer="defer"></script>
+    <script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
+    <script src="js/isotope.min.js" defer="defer"></script>
+    <script src="js/jquery.magnific-popup.min.js" defer="defer"></script>
+    <script src="js/jqBootstrapValidation.js" defer="defer"></script>
+    <script src="js/custom.js"></script>
+
+
+    <script>
+
+      $(document).ready(function(){
+        isotope();
+      });
+
+    </script>
+
+  </body>
+</html>
